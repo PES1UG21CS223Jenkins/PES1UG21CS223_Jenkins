@@ -9,7 +9,7 @@ pipeline {
                 echo "Build Stage Successful"
             }
         }
-        stage('Test') { 
+        stage('Test') 
             steps {
                 echo "This is Test stage." 
                 sh './output'
